@@ -10,7 +10,9 @@ exports.config = {
     ],
     maxInstances: 1,
     capabilities: [
-      {browserName: 'chrome', browserVersion: '78.0'}
+      {browserName: 'chrome', browserVersion: '78.0',
+        "selenoid:options": { "enableVNC": true }
+      }
     ],
     logLevel: 'debug',
     framework: 'mocha',
