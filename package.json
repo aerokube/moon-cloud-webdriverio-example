@@ -1,26 +1,26 @@
 {
-  "name": "browsers-webdriverio-example",
+  "name": "moon-cloud-webdriverio-example",
   "version": "1.0.0",
-  "description": "A minimalist example of running Webdriver.io tests with Aerokube Browsers",
+  "description": "A minimalist example of running Webdriver.io tests with Moon Cloud",
   "main": "",
   "repository": {
     "type": "git",
-    "url": "git@github.com:aerokube/browsers-webdriverio-example.git"
+    "url": "git@github.com:aerokube/moon-cloud-webdriverio-example.git"
   },
   "scripts": {
     "test": "./node_modules/.bin/wdio wdio.conf.js"
   },
   "dependencies": {
     "chai": "*",
-    "mocha": "^6.2.2",
-    "webdriverio": "^5.17.0"
+    "mocha": "^9.0.1",
+    "webdriverio": "^7.7.3"
   },
   "devDependencies": {
-    "@wdio/cli": "^5.17.0",
-    "@wdio/dot-reporter": "^5.16.5",
-    "@wdio/local-runner": "^5.17.0",
-    "@wdio/mocha-framework": "^5.16.15",
-    "@wdio/spec-reporter": "^5.16.11",
-    "@wdio/sync": "^5.17.0"
+    "@wdio/cli": "^7.7.3",
+    "@wdio/dot-reporter": "^7.7.3",
+    "@wdio/local-runner": "^7.7.3",
+    "@wdio/mocha-framework": "^7.7.3",
+    "@wdio/spec-reporter": "^7.7.3",
+    "@wdio/sync": "^7.7.3"
   }
 }

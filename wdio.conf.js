@@ -1,17 +1,20 @@
 exports.config = {
     runner: 'local',
     protocol: 'https',
-    hostname: 'browsers.aerokube.com',
-    port: 4444,
-    user: '', // Username
-    key: '', // Password
+    hostname: 'my-cluster.cloud.aerokube.com',
+    port: 443,
+    user: 'test', // Username
+    key: 'test-password', // Password
     specs: [
         'tests/**/*js'
     ],
     maxInstances: 1,
     capabilities: [
-      {browserName: 'chrome', browserVersion: '78.0',
-        "selenoid:options": { "enableVNC": true }
+      {browserName: 'chrome', browserVersion: '91.0',
+        "moon:options": {
+            "enableVNC": true,
+            "sessionTimeout": "2m"
+        }
       }
     ],
     logLevel: 'debug',
