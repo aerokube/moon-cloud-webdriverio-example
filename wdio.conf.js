@@ -2,6 +2,7 @@ exports.config = {
     runner: 'local',
     protocol: 'https',
     hostname: 'my-cluster.cloud.aerokube.com',
+    path: '/wd/hub',
     port: 443,
     user: 'test', // Username
     key: 'test-password', // Password
